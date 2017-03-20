@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>CreatePolygonFeature</Name>
+  <AddInID>{0f286446-b8fb-4e39-8a77-cd5d1acc6235}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\CreatePolygonFeature_1.png</Image>
+  <Author>Hussein</Author>
+  <Company></Company>
+  <Date>3/19/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="CreatePolygonFeature.dll" namespace="CreatePolygonFeature">
+    <ArcMap>
+      <Commands>
+        <Tool id="CreatePolygonFeature_CreatePolygonFeature" class="CreatePolygonFeature" message="CreatePolygonFeature" caption="CreatePolygonFeature" tip="CreatePolygonFeature" category="IGeometry" image="Images\CreatePolygonFeature.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
