@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatePolygonFeature", "Cre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRowTable", "CreateRowTable\CreateRowTable.csproj", "{3FDC2A85-C29E-4445-A190-4EEC4F39AD32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCodedValueDomains", "WorkingWithCodedValueDomains\WorkingWithCodedValueDomains.csproj", "{95325DAC-D3DF-47B9-89C1-811F5B4B5AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3FDC2A85-C29E-4445-A190-4EEC4F39AD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FDC2A85-C29E-4445-A190-4EEC4F39AD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FDC2A85-C29E-4445-A190-4EEC4F39AD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95325DAC-D3DF-47B9-89C1-811F5B4B5AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95325DAC-D3DF-47B9-89C1-811F5B4B5AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95325DAC-D3DF-47B9-89C1-811F5B4B5AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95325DAC-D3DF-47B9-89C1-811F5B4B5AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
