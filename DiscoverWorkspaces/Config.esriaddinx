@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DiscoverWorkspaces</Name>
+  <AddInID>{57437abd-50a0-436d-a4fc-b70776fbc4d4}</AddInID>
+  <Description>DiscoverWorkspaces</Description>
+  <Version>1.0</Version>
+  <Image>Images\DiscoverWorkspaces_1.png</Image>
+  <Author>Hussein</Author>
+  <Company></Company>
+  <Date>4/16/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="DiscoverWorkspaces.dll" namespace="DiscoverWorkspaces">
+    <ArcMap>
+      <Commands>
+        <Button id="DiscoverWorkspaces_DiscoverWorkspaces" class="DiscoverWorkspaces" message="DiscoverWorkspaces" caption="DiscoverWorkspaces" tip="DiscoverWorkspaces" category="DiscoverWorkspaces" image="Images\DiscoverWorkspaces.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>

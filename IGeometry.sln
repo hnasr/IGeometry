@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCodedValueDomain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingVSNonRecyclingCursor", "RecyclingVSNonRecyclingCursor\RecyclingVSNonRecyclingCursor.csproj", "{3486234B-2AEB-4FB0-9481-911A8D19A9E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverWorkspaces", "DiscoverWorkspaces\DiscoverWorkspaces.csproj", "{57437ABD-50A0-436D-A4FC-B70776FBC4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3486234B-2AEB-4FB0-9481-911A8D19A9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3486234B-2AEB-4FB0-9481-911A8D19A9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3486234B-2AEB-4FB0-9481-911A8D19A9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
