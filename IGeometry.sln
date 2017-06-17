@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditingFeatureAttributes", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithGraphics", "WorkingWithGraphics\WorkingWithGraphics.csproj", "{77787C87-62A7-462B-A8F1-2B03C5765976}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFeature", "DeleteFeature\DeleteFeature.csproj", "{8F413EFF-5759-470F-B1A6-AC8F3E1CAE00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{77787C87-62A7-462B-A8F1-2B03C5765976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77787C87-62A7-462B-A8F1-2B03C5765976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77787C87-62A7-462B-A8F1-2B03C5765976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F413EFF-5759-470F-B1A6-AC8F3E1CAE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F413EFF-5759-470F-B1A6-AC8F3E1CAE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F413EFF-5759-470F-B1A6-AC8F3E1CAE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F413EFF-5759-470F-B1A6-AC8F3E1CAE00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
