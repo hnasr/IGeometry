@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecyclingVSNonRecyclingCurs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoverWorkspaces", "DiscoverWorkspaces\DiscoverWorkspaces.csproj", "{57437ABD-50A0-436D-A4FC-B70776FBC4D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLayer", "FindLayer\FindLayer.csproj", "{D9DFB2E6-4180-495B-A6C1-2C7F89A668AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditingFeatureAttributes", "EditingFeatureAttributes\EditingFeatureAttributes.csproj", "{721E34A7-6382-41A2-9C79-86F24E90D288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57437ABD-50A0-436D-A4FC-B70776FBC4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DFB2E6-4180-495B-A6C1-2C7F89A668AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DFB2E6-4180-495B-A6C1-2C7F89A668AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DFB2E6-4180-495B-A6C1-2C7F89A668AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DFB2E6-4180-495B-A6C1-2C7F89A668AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721E34A7-6382-41A2-9C79-86F24E90D288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721E34A7-6382-41A2-9C79-86F24E90D288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721E34A7-6382-41A2-9C79-86F24E90D288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721E34A7-6382-41A2-9C79-86F24E90D288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

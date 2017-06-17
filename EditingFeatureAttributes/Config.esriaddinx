@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>EditingFeatureAttributes</Name>
+  <AddInID>{721e34a7-6382-41a2-9c79-86f24e90d288}</AddInID>
+  <Description>Type in a description for this Add-in.</Description>
+  <Version>1.0</Version>
+  <Image>Images\EditingFeatureAttributes_1.png</Image>
+  <Author>Hussein</Author>
+  <Company></Company>
+  <Date>6/3/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="EditingFeatureAttributes.dll" namespace="EditingFeatureAttributes">
+    <ArcMap>
+      <Commands>
+        <Button id="EditingFeatureAttributes_EditingFeatureAttributes" class="EditingFeatureAttributes" message="EditingFeatureAttributes" caption="EditingFeatureAttributes" tip="EditingFeatureAttributes" category="IGeometry" image="Images\EditingFeatureAttributes.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
